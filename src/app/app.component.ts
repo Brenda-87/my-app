@@ -15,6 +15,5 @@ export class AppComponent {
 
   onInputText($event: any) {
     this.text = $event.target.value;
-    console.log('test');
   }
 }
